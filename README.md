@@ -18,7 +18,8 @@ Note: Whenever anything is put in quotes copy the characters in the quotes, and 
 * Two commands are shown : "```load```" and "```acs```". Find what exactly these commands do in the command documentation below.
 
 ## Master Commands
-~ *Master commands are special commands which can be accesed from anywhere. Unlike ordinary commands like ```net``` which can only be accesed by first running the QuickBash script using ```qbas```, master commands can be used without running any script, anywhere in the terminal.*
+~ *Master commands are special commands which can be accesed from anywhere. Unlike ordinary commands like ```net``` which can only be accesed by first running the QuickBash script using the master command ```qinfo```, master commands can be used without running any script, anywhere in the terminal. Every ordinary command requires a master command to be used before it.*
+
 * ```qinfo``` > Find detailed information about everything related to your computer.
 * ```qlang``` > Automatically sets up the build system of any language you want to use. 
 * ```qset```  > Setup the ultimate programming environment on your computer, complete with all the bells and whistles.
