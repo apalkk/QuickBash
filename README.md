@@ -16,6 +16,7 @@ Note: Whenever anything is put in quotes copy the characters in the quotes, and 
 * Then a bunch of options will show up in this format : ```net > show all network settings```
 * This means that if you type in "```net```" you will be shown all the network settings
 * The last command shown is "```setup```". Type that in and then you will another list of commands. 
+* Two commands are shown : load and acs. Find what exactly these commands do below.
 
 ## Command Documentation
 * Load -> It downloads several cli programs essential to all kinds of devs like:
