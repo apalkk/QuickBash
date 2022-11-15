@@ -11,7 +11,7 @@ Note: Whenever anything is put in quotes copy the characters in the quotes, and 
 * **And That's It! You're All Done! Type in "```cSet```" and hit enter to start the program.**
 
 ## A Brief Tutorial
-* To setup a new device, enter "```cset```"
+* To run the script, enter "```cset```"
 * The program will ask for your username (type "```whoami```" to get it if you don't know it yet)
 * Then a bunch of options will show up in this format : ```net > show all network settings```
 * This means that if you type in "```net```" you will be shown all the network settings
