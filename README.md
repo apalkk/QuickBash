@@ -13,7 +13,7 @@ Note: Whenever anything is put in quotes copy the characters in the quotes, and 
 ## A Brief Tutorial
 * To setup a new device, enter "```cset```"
 * The program will ask for your username (type "```whoami```" to get it if you don't know it yet)
-* Then a bunch of options will show up like : ```net > show all network settings```
+* Then a bunch of options will show up in this format : ```net > show all network settings```
 * This means that if you type in "```net```" you will be shown all the network settings
 * The last command shown is "```setup```". Type that in and then you will another list of commands. 
 
