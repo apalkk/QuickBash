@@ -20,7 +20,9 @@ Note: Whenever anything is put in quotes copy the characters in the quotes, and 
 
 ## Master Commands
 ~ *Master commands are special commands which can be accesed from anywhere. Unlike ordinary commands like ```net``` which can only be accesed by first running the QuickBash script using ```qbas```, master commands can be used without running any script, anywhere in the terminal.*
-* qlang > Automatically sets up the build system of any language you want to use. 
+* ```qinfo``` > Find detailed information about everything related to your computer.
+* ```qlang``` > Automatically sets up the build system of any language you want to use. 
+* ```qset```  > Setup the ultimate programming environment on your computer, complete with all the bells and whistles.
 ## Command Documentation
 * Load -> It downloads several cli programs essential to all kinds of devs like:
     *  Git = https://en.wikipedia.org/wiki/Git ( You're not a real programmer until you've used git)
