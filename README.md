@@ -7,8 +7,7 @@ Note: Whenever anything is put in quotes copy the characters in the quotes, and 
 * Open Your Terminal
 * Enter "whoami" into the command line interface (CLI)
 * Your username will then show up.
-* Copy your username.
-* Write "cd /Users/" and then paste after the "/"
-* Then enter "git clone "
-* Then enter "bash setup.sh"
+* Enter "cd /Users/$(whoami)/QuickBash"
+* Then enter "git clone https://github.com/apalkk/QuickBash.git"
+* Then enter "bash start.sh"
 * **And That's It! You're All Done! Type in "cSet" and hit enter to start the program.**
