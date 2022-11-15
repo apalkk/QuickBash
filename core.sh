@@ -17,7 +17,7 @@ echo 'OS > to get information on your operating system.'
 echo 'net > to look at network stats '
 echo 'cpu > to check all system processes'
 echo 'setup > to create the ultimate terminal'
-echo 'For more info go to '
+echo 'For more info go to https://github.com/apalkk/QuickBash'
 read Comd
 if [ "$Comd" == "OS" ]
 then 
@@ -139,13 +139,5 @@ brewInstall (){
   brew install yt-dlp
   brew install iina
 }
-
-pyInstall (){
-  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-  brew install --cask anaconda
-  source ~/.zshrc
-  conda init zsh
-}
-
 
 func
