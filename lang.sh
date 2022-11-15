@@ -27,6 +27,8 @@ pyInstall (){
   brew install --cask anaconda
   sed -i '1s/^/export PATH="/usr/local/anaconda3/bin:$PATH" /' ~.zshrc
   source ~/.zshrc
+  brew update && brew upgrade
+  brew install python3
 }
 
 func
