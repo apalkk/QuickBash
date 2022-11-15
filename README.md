@@ -4,7 +4,7 @@ A bash command system which allows users to instantly setup the ultimate coding 
 ## Setup
 Note: Whenever anything is put in quotes copy the characters in the quotes, and not the quotes themselves.\
 \
-Open Your Terminal\
+* Open Your Terminal\
 Enter "whoami" into the command line interface (CLI)\
 Your username will then show up.\
 Copy your username.\
