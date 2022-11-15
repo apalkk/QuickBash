@@ -28,9 +28,6 @@ then
 elif [ "$Comd" == "cpu" ]
 then 
     cpu
-elif [ "$Comd" == "setup" ]
-then 
-    setup
 fi
 }
 
@@ -107,37 +104,30 @@ cpu (){
   func
 }
 
-setup (){
-  echo "load > to download Homebrew, wget, ffmpeg, imagemagick, ohmyzsh, git, tree, nmap, and iterm2 - all the coding classics"
-  echo "acs  > to download aldente, hot, yt-dlp and iina to truly accesorize your device. (Make sure you have HomeBrew installed)"
-  read pload
-  if [ "$pload" == "load" ]
-  then
-      install
-  elif [ "$pload" == "acs"]
-  then
-      brewInstall
+pms (){
+  echo "Currently scheduled events :"
+  pmset -g sched
+  echo "_-_-_-_-_-_-_-_-_-_"
+  echo "Showing powerstate of every driver on device"
+  pmset -g powerstate
+  echo "_-_-_-_-_-_-_-_-_-_"
+  echo 'cap > to get Capabilities for Battery Power.'
+  echo 'sysp > to get System-wide power settings '
+  echo 'check > to check workload on system and user activity'
+  echo 'For more info go to https://github.com/apalkk/QuickBash'
+  read Comd
+  if [ "$Comd" == "cap" ]
+  then 
+       pmset -g cap
+  elif [ "$Comd" == "sysp" ]
+  then 
+       pmset -g
+  elif [ "$Comd" == "check" ]
+  then 
+       pmset -g sysload
+       pmset -g useractivity
+       #pmset -g log
   fi
-}
-
-install (){
-  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-  brew install wget
-  brew install ffmpeg
-  brew install qbitorrent
-  brew install tree
-  brew install imagemagick
-  brew install git
-  brew install nmap
-  sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-  brew install iterm2
-  #brew install htop
-}
-brewInstall (){
-  brew install aldente
-  brew install hot
-  brew install yt-dlp
-  brew install iina
-}
+  }
 
 func
