@@ -11,18 +11,18 @@ Note: Whenever anything is put in quotes copy the characters in the quotes, and 
 * **And That's It! You're All Done! Type in "```qbas```" and hit enter to start the program.**
 
 ## A Brief Tutorial
-* To run the script, enter "```qbas```"
+* To run the script, enter "```qset```"
 * The program will ask for your username (type "```whoami```" to get it if you don't know it yet)
 * Then a bunch of options will show up in this format : ```net > show all network settings```
 * This means that if you type in "```net```" you will be shown all the network settings
-* The last command shown is "```setup```". Type that in and then you will another list of commands. 
-* Two commands are shown : "```load```" and "```acs```". Find what exactly these commands do below.
+* Two commands are shown : "```load```" and "```acs```". Find what exactly these commands do in the command documentation below.
 
 ## Master Commands
 ~ *Master commands are special commands which can be accesed from anywhere. Unlike ordinary commands like ```net``` which can only be accesed by first running the QuickBash script using ```qbas```, master commands can be used without running any script, anywhere in the terminal.*
 * ```qinfo``` > Find detailed information about everything related to your computer.
 * ```qlang``` > Automatically sets up the build system of any language you want to use. 
 * ```qset```  > Setup the ultimate programming environment on your computer, complete with all the bells and whistles.
+
 ## Command Documentation
 * Load -> It downloads several cli programs essential to all kinds of devs like:
     *  Git = https://en.wikipedia.org/wiki/Git ( You're not a real programmer until you've used git)
