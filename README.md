@@ -8,7 +8,7 @@ Note: Whenever anything is put in quotes copy the characters in the quotes, and 
 * Enter "```cd /Users/$(whoami)/QuickBash```"
 * Then enter "```git clone https://github.com/apalkk/QuickBash.git```"
 * Then enter "```bash start.sh```"
-* **And That's It! You're All Done! Type in "```qbas```" and hit enter to start the program.**
+* **And That's It! You're All Done! Type in "```qset```" and hit enter to start the program.**
 
 ## A Brief Tutorial
 * To run the script, enter "```qset```"
