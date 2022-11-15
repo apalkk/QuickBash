@@ -11,4 +11,4 @@ Note: Whenever anything is put in quotes copy the characters in the quotes, and 
 * Write "cd /Users/" and then paste after the "/"\
 * Then enter "git clone "\
 * Then enter "bash setup.sh"\
-   * __And That's It! You're All Done! Type in "cSet" and hit enter to start the program.
+   ** ____And That's It! You're All Done! Type in "cSet" and hit enter to start the program.
