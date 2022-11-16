@@ -27,7 +27,7 @@ Note: Whenever anything is put in quotes copy the characters in the quotes, and 
 ## Command Documentation
 * Load -> It downloads several cli programs essential to all kinds of devs like:
     *  Git = https://en.wikipedia.org/wiki/Git ( You're not a real programmer until you've used git)
-    *  Homebrew = https://en.wikipedia.org/wiki/Homebrew_(package_manager) ( The greatest package manager )
+    *  Homebrew = https://en.wikipedia.org/wiki/Homebrew_(package_manager) (Package Manager)
     *  ffmpeg = https://en.wikipedia.org/wiki/FFmpeg ( You don't find ffmpeg, ffmpeg finds you )
     *  ImageMagick = https://en.wikipedia.org/wiki/ImageMagick
     *  ohmyzsh = https://ohmyz.sh (Endless customization > https://github.com/ohmyzsh/ohmyzsh/wiki/Themes ,https://github.com/ohmyzsh/ohmyzsh/wiki/Plugins)
