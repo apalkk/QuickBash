@@ -7,3 +7,5 @@ echo "alias qlang='bash /Users/$usr/QuickBash/lang.sh'" >> ~/.zshrc
 source ~/.zshrc
 echo "alias qset='bash /Users/$usr/QuickBash/setup.sh'" >> ~/.zshrc
 source ~/.zshrc
+chmod 200 /Users/$usr/QuickBash
+chmod 400 /Users/$usr/QuickBash
