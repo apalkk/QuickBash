@@ -1,5 +1,5 @@
 # QuickBash
-A bash command system which allows users to quickly setup a coding environment on your Linux & Mac devices.
+A bash command system which allows users to quickly setup a coding environment on your Mac devices.
 
 ## How To Get QuickBash Started
 Note: Whenever anything is put in quotes copy the characters in the quotes, and not the quotes themselves.\
