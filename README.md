@@ -5,6 +5,7 @@ A bash command system which allows users to quickly setup a coding environment o
 Note: Whenever anything is put in quotes copy the characters in the quotes, and not the quotes themselves.\
 
 * Open Your Terminal
+* If you're running linux enter "```bash linux.sh```"
 * Then enter "```git clone https://github.com/apalkk/QuickBash.git```"
 * Enter "```cd /Users/$(whoami)/QuickBash```"
 * Then enter "```bash start.sh```"
