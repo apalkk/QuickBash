@@ -6,8 +6,8 @@ Note: Whenever anything is put in quotes copy the characters in the quotes, and 
 
 * Open Your Terminal
 * Then enter "```git clone https://github.com/apalkk/QuickBash.git```"
+* If you're running linux cd to QuickBash, then enter "```bash linux.sh```", and after the process finishes restart your machine.
 * Enter "```cd /Users/$(whoami)/QuickBash```"
-* If you're running linux enter "```bash linux.sh```"
 * Then enter "```bash start.sh```"
 * **And That's It! You're All Done! Type in "```qset```" and hit enter to start the program.**
 
