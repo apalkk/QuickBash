@@ -3,9 +3,8 @@ Comd=""
 echo Ready
 echo 'py > to get information on your operating system.'
 echo 'cpp > to look at network stats '
-echo 'js > to check all system processes'
+echo 'rust > to check all system processes'
 echo 'java > to create the ultimate terminal'
-echo 'For more info go to '
 read Comd
 if [ "$Comd" == "py" ]
 then 
@@ -13,9 +12,9 @@ then
 elif [ "$Comd" == "cpp" ]
 then 
     cppInstall
-elif [ "$Comd" == "js" ]
+elif [ "$Comd" == "rust" ]
 then 
-    jsInstall
+    rustInstall
 elif [ "$Comd" == "java" ]
 then 
     javaInstall
@@ -29,6 +28,24 @@ pyInstall (){
   source ~/.zshrc
   brew update && brew upgrade
   brew install python3
+}
+
+rustInstall (){
+  curl --proto '=https' --tlsv1.3 https://sh.rustup.rs -sSf | sh
+  xcode-select --install
+}
+
+cppInstall (){
+  brew install cmake
+  brew update && brew upgrade
+  xcode-select --install
+}
+
+javaInstall (){
+  brew install java
+  java --version
+  echo "Use symlink if operation could not be completed: sudo ln -sfn /opt/homebrew/opt/openjdk/libexec/openjdk.jdk \
+     /Library/Java/JavaVirtualMachines/openjdk.jdk"
 }
 
 func
