@@ -2,7 +2,7 @@
 A bash command system which allows users to quickly setup a coding environment on your Mac devices.
 
 ## How To Get QuickBash Started
-Note: Whenever anything is put in quotes copy the characters in the quotes, and not the quotes themselves.\
+Note: Whenever anything is put in quotes copy the characters in the quotes, and not the quotes themselves.
 
 * Open Your Terminal
 * Then enter "```git clone https://github.com/apalkk/QuickBash.git```"
@@ -23,6 +23,7 @@ Note: Whenever anything is put in quotes copy the characters in the quotes, and 
 * ```qinfo``` > Find detailed information about everything related to your computer.
 * ```qlang``` > Automatically sets up the build system of any language you want to use. 
 * ```qset```  > Setup the ultimate programming environment on your computer, complete with all the bells and whistles.
+* ```qcrypt``` > Encrypt and decrypt files with AES256 encryption with passkeys.
 
 ## Command Documentation
 * Load -> It downloads several cli programs essential to all kinds of devs like:
@@ -31,6 +32,6 @@ Note: Whenever anything is put in quotes copy the characters in the quotes, and 
     *  ffmpeg = https://en.wikipedia.org/wiki/FFmpeg ( You don't find ffmpeg, ffmpeg finds you )
     *  ImageMagick = https://en.wikipedia.org/wiki/ImageMagick
     *  ohmyzsh = https://ohmyz.sh (Endless customization > https://github.com/ohmyzsh/ohmyzsh/wiki/Themes ,https://github.com/ohmyzsh/ohmyzsh/wiki/Plugins)
-    *  tree = https://linuxhint.com/bash-tree-command/ ( A very useful command which often comes in handy )
+    *  tree = https://linuxhint.com/bash-tree-command/
     *  nmap = https://en.wikipedia.org/wiki/Nmap
-    *  iterm2 = https://en.wikipedia.org/wiki/ITerm2 ( A second terminal with even more customization )
+    *  iterm2 = https://en.wikipedia.org/wiki/ITerm2 ( A second terminal with more customization )
