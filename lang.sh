@@ -1,10 +1,10 @@
 func (){
 Comd=""
 echo Ready
-echo 'py > to get information on your operating system.'
-echo 'cpp > to look at network stats '
-echo 'rust > to check all system processes'
-echo 'java > to create the ultimate terminal'
+echo 'py > Download anaconda and python3.'
+echo 'cpp > Download cmake and a c++ compiler via xcode '
+echo 'rust > Download rust environment with curl and a c++ compiler via xcode'
+echo 'java > Download java environment via homebrew'
 read Comd
 if [ "$Comd" == "py" ]
 then 
