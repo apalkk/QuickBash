@@ -86,12 +86,12 @@ net (){
   read nst
   if [ "$nst" == "socs" ]
   then
-    netstat -a
-    func
+      netstat -a
+      func
   elif [ "$nst" == "nst" ]
   then
-    net2
-    func
+       net2
+       func
   else
     func
   fi
@@ -122,15 +122,15 @@ pms (){
   read Comd
   if [ "$Comd" == "cap" ]
   then 
-       pmset -g cap
+      pmset -g cap
   elif [ "$Comd" == "sysp" ]
   then 
-       pmset -g
+      pmset -g
   elif [ "$Comd" == "check" ]
   then 
-       pmset -g sysload
-       pmset -g useractivity
-       #pmset -g log
+      pmset -g sysload
+      pmset -g useractivity
+      #pmset -g log
   fi
   }
 
