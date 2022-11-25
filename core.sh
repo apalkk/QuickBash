@@ -4,7 +4,7 @@ func (){
 Comd=""
 echo Running Scripts .......
 sleep 1
-echo "Reay"
+echo "Ready"
 
 pub_ip=$(curl ipinfo.io/ip)
 mac=$(ifconfig en1 | awk '/ether/{print $2}')
