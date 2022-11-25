@@ -1,18 +1,17 @@
-echo Enter Your Name 
-read Name
-if [ "$Name" != $USER ]
-then 
-  echo "Your name isn't your username"
-  exit 0
-else
-  echo "Correct Answer"
-fi
+echo "Welcome $USER"
 
 func (){
 Comd=""
-echo Commencing Operations .......
+echo Running Scripts .......
 sleep 1
-echo Ready
+echo "Reay"
+
+pub_ip=$(curl ipinfo.io/ip)
+mac=$(ifconfig en1 | awk '/ether/{print $2}')
+echo 'Basic Info:'
+echo "Your MAC address is $mac"
+echo "Your public ip is $pub_ip"
+echo "_-_-_-_-_-_-_-_-_-_"
 echo 'OS > to get information on your operating system.'
 echo 'net > to look at network stats '
 echo 'cpu > to check all system processes'
@@ -53,12 +52,8 @@ os (){
 }
 
 net (){
-    mac=$(ifconfig en1 | awk '/ether/{print $2}')
     ip=$(ifconfig | grep -Eo 'inet (addr:)?([0-9]*\.){3}[0-9]*' | grep -Eo '([0-9]*\.){3}[0-9]*' | grep -v '127.0.0.1')
-    pub_ip=$(curl ipinfo.io/ip)
-    echo "Your MAC address is $mac"
     echo "Your primary private ip (as assigned to you by the ISP) is $ip"
-    echo "Your public ip is $pub_ip"
     echo "For details about network speed and connection quality enter nst"
     echo "For details about the status of all sockets enter socs"
     read nst
