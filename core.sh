@@ -16,7 +16,7 @@ echo Ready
 echo 'OS > to get information on your operating system.'
 echo 'net > to look at network stats '
 echo 'cpu > to check all system processes'
-echo 'setup > to create the ultimate terminal'
+echo 'setup > to customize your terminal'
 echo 'For more info go to https://github.com/apalkk/QuickBash'
 read Comd
 if [ "$Comd" == "OS" ]
