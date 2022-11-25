@@ -10,7 +10,7 @@ Note: Whenever anything is put in quotes copy the characters in the quotes, and 
 * Then enter "```bash start.sh```"
 * **And That's It! You're All Done! Type in "```qset```" and hit enter to start the program.**
 
-## A Brief Tutorial
+## A Brief Tutorial(If you want to setup your terminal)
 * To run the script, enter "```qset```"
 * The program will ask for your username (type "```whoami```" to get it if you don't know it yet)
 * Then a bunch of options will show up in this format : ```net > show all network settings```
