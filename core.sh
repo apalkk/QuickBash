@@ -57,24 +57,8 @@ os (){
 }
 
 net (){
-    ip=$(ifconfig | grep -Eo 'inet (addr:)?([0-9]*\.){3}[0-9]*' | grep -Eo '([0-9]*\.){3}[0-9]*' | grep -v '127.0.0.1')
-    echo "Your primary private ip (as assigned to you by the ISP) is $ip"
-    echo "For details about network speed and connection quality enter nst"
-    echo "For details about the status of all sockets enter socs"
-    read nst
-    if [ "$nst" == "socs" ]
-    then
-      netstat -a
-      func
-    elif [ "$nst" == "nst" ]
-    then
-      net2
-      func
-    else
-      func
-    fi
-}
-net2 (){
+  ip=$(ifconfig | grep -Eo 'inet (addr:)?([0-9]*\.){3}[0-9]*' | grep -Eo '([0-9]*\.){3}[0-9]*' | grep -v '127.0.0.1')
+  echo "Your primary private ip (as assigned to you by the ISP) is $ip"
   ping 8.8.8.8 -c 5
   result=$(ping -c 4 www.google.com | tail -1| awk '{print $4}' | cut -d '/' -f 2)
   echo "Average ping time to google.com is $result"
@@ -97,6 +81,24 @@ net2 (){
       echo Bad Connection
       func
   fi
+  echo "For details about your local network"
+  echo "For details about the status of all sockets enter socs"
+  read nst
+  if [ "$nst" == "socs" ]
+  then
+    netstat -a
+    func
+  elif [ "$nst" == "nst" ]
+  then
+    net2
+    func
+  else
+    func
+  fi
+}
+net2 (){
+  echo "Showing all the devices on your local network:"
+  arp -a
 }
 
 cpu (){
