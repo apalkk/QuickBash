@@ -9,6 +9,6 @@ echo "alias qset='bash /Users/$usr/QuickBash/setup.sh'" >> ~/.zshrc
 source ~/.zshrc
 echo "alias qcrypt='bash /Users/$usr/QuickBash/crypt.sh'" >> ~/.zshrc
 source ~/.zshrc
-echo "alias qjump='bash /Users/$usr/QuickBash/specialCommands.sh'" >> ~/.zshrc
+echo "alias qcom='bash /Users/$usr/QuickBash/specialCommands.sh'" >> ~/.zshrc
 source ~/.zshrc
 echo "#<<Quickbash aliases end<<" >> ~/.zshrc
