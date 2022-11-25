@@ -17,6 +17,7 @@ echo 'net > to look at network stats '
 echo 'cpu > to check all system processes'
 echo 'setup > to customize your terminal'
 echo 'For more info go to https://github.com/apalkk/QuickBash'
+echo '<><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>'
 read Comd
 if [ "$Comd" == "OS" ]
 then 
