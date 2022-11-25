@@ -33,6 +33,7 @@ pyInstall (){
 rustInstall (){
   curl --proto '=https' --tlsv1.3 https://sh.rustup.rs -sSf | sh
   xcode-select --install
+
 }
 
 cppInstall (){
