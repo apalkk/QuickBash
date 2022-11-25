@@ -15,6 +15,7 @@ echo "_-_-_-_-_-_-_-_-_-_"
 echo 'OS > to get information on your operating system.'
 echo 'net > to look at network stats '
 echo 'cpu > to check all system processes'
+echo 'bat > To check battery conditions and power settings'
 echo 'setup > to customize your terminal'
 echo 'For more info go to https://github.com/apalkk/QuickBash'
 echo '<><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>'
@@ -28,6 +29,9 @@ then
 elif [ "$Comd" == "cpu" ]
 then 
     cpu
+elif [ "$Comd" == "bat" ]
+then 
+    pms
 fi
 }
 
@@ -97,6 +101,8 @@ net2 (){
 
 cpu (){
   sysctl -a | grep machdep.cpu
+  echo "User CPU usage:"
+  top -l 2 | grep -E "^CPU"
   func
 }
 
