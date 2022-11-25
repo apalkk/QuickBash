@@ -25,7 +25,7 @@ Note: Whenever anything is put in quotes copy the characters in the quotes, and 
 * ```qset```  > Terminal customization with all the bells and whistles.
 * ```qcrypt``` > Encrypt and decrypt files with AES256 encryption with passkeys.
 * ```qcom``` > A special command to quickly manipulate files. For example: 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;```qcom m``` - Opens the main file in your dir. Useful if you're using a massive build system like cargo or cmake.
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;```qcom m``` - Opens the main file in your dir. Useful if you're using a massive build system like cargo or cmake. If there are multiple main files it will open the first one mdfind reveals.
 
 ## Command Documentation
 * Load -> It downloads several cli programs essential to all kinds of devs like:
