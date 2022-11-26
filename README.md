@@ -35,6 +35,7 @@ Note: Whenever anything is put in quotes copy the characters in the quotes, and 
     *  ffmpeg = https://en.wikipedia.org/wiki/FFmpeg ( You don't find ffmpeg, ffmpeg finds you )
     *  ImageMagick = https://en.wikipedia.org/wiki/ImageMagick
     *  ohmyzsh = https://ohmyz.sh (Endless customization > https://github.com/ohmyzsh/ohmyzsh/wiki/Themes ,https://github.com/ohmyzsh/ohmyzsh/wiki/Plugins)
-    *  tree = https://linuxhint.com/bash-tree-command/
+    *  tree = https://linuxhint.com/bash-tree-command
+    *  nvim = https://neovim.io ( Upgraded vim )
     *  nmap = https://en.wikipedia.org/wiki/Nmap
     *  iterm2 = https://en.wikipedia.org/wiki/ITerm2 ( A second terminal with more customization )
