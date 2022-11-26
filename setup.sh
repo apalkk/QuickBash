@@ -41,6 +41,7 @@ install (){
   brew install imagemagick
   brew install git
   brew install nmap
+  brew install nvim
   sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
   brew install iterm2
   #brew install htop
