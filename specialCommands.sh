@@ -1,7 +1,6 @@
 if [ $1 = "m" ]
 then 
-  path=$(mdfind -onlyin . -name 'main' | grep -A 1 /Users)
-  nvim $path
+  nvim $(mdfind -onlyin . -name 'main' | grep -A 1 /Users)
 elif [ $1 = "u" ]
   cd /Users/$(whoami)
 else 
