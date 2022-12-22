@@ -13,9 +13,9 @@ Comd=""
 echo Commencing Operations .......
 sleep 1
 echo Ready
-echo "load > to download Homebrew, wget, ffmpeg, imagemagick, ohmyzsh, git, tree, nmap, and iterm2 - all the coding classics"
-echo "acs  > to download aldente, hot, yt-dlp and iina to truly accesorize your device. (Make sure you have HomeBrew installed)"
-echo "smv  > to download telegram, signal, and discord, the triad of hacker socials (Make sure you have HomeBrew installed)"
+echo "load > to download HOMEBREW, wget, ffmpeg, imagemagick, ohmyzsh, git, tree, nmap, and iterm2 - all the essentials"
+echo "acs  > to download aldente, hot, yt-dlp and iina to accesorize your terminal. (Make sure you have HomeBrew installed)"
+echo "smv  > to download telegram, signal, and discord (Make sure you have HomeBrew installed)"
 read Comd
 if [ "$Comd" == "load" ]
 then 
