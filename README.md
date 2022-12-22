@@ -29,6 +29,7 @@ Note: Whenever anything is put in quotes copy the characters in the quotes, and 
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;```qcom m``` - Opens the main file in your current dir. Useful if you're using a massive build system like cargo or cmake. If there are multiple main files it will open the first one mdfind reveals.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;```qcom d``` - Downloads any youtube video in the webm video format as long as you have youtube-dlp installed.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;```qcom da``` - Downloads any youtube video in the mp3 audio format as long as you have youtube-dlp installed.
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;```qcom cmake projectname``` - C
 
 
 ## Command Documentation
