@@ -6,7 +6,7 @@ then
      yt-dlp -x --geo-bypass $2
 elif [  $1 == "da"  ]
 then 
-     youtube-dl -x --audio-format mp3 $2
+     yt-dlp -x --audio-format mp3 $2
 else
      echo "Wrong Input"
 fi
