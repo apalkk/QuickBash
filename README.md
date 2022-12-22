@@ -27,7 +27,9 @@ Note: Whenever anything is put in quotes copy the characters in the quotes, and 
 * ```qcrypt``` > Encrypt and decrypt files with AES256 encryption with passkeys.
 * ```qcom``` > A special command to quickly manipulate files. For example: 
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;```qcom m``` - Opens the main file in your current dir. Useful if you're using a massive build system like cargo or cmake. If there are multiple main files it will open the first one mdfind reveals.
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;```qcom u``` - Sends you to the /Users/<username> directory.
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;```qcom d``` - Downloads any youtube video in the webm video format as long as you have youtube-dlp installed.
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;```qcom da``` - Downloads any youtube video in the mp3 audio format as long as you have youtube-dlp installed.
+
 
 ## Command Documentation
 * Load -> It downloads several cli programs essential to all kinds of devs like:
