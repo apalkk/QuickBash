@@ -23,7 +23,7 @@ Note: Whenever anything is put in quotes copy the characters in the quotes, and 
 
 * ```qinfo``` > Find detailed information about everything related to your computer.
 * ```qlang``` > Automatically sets up the build system of any language you want to use. 
-* ```qset```  > Terminal customization with all the bells and whistles.
+* ```qset```  > Programmer essentials and erminal customization with all the bells and whistles.
 * ```qcrypt``` > Encrypt and decrypt files with AES256 encryption with passkeys.
 * ```qcom``` > A special command to quickly manipulate files. For example: 
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;```qcom m``` - Opens the main file in your current dir. Useful if you're using a massive build system like cargo or cmake. If there are multiple main files it will open the first one mdfind reveals.
